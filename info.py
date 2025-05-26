@@ -18,8 +18,8 @@ def is_enabled(value, default):
 # Bot Information Configuration
 # ============================
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '28713982'))
+API_HASH = environ.get('API_HASH', '237e15f7c006b10b4fa7c46fee7a5377')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # ============================
@@ -68,7 +68,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # MongoDB Configuration
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jadib75913:animeotaku109@cluster0.zpc29mq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://tyliqedy:animeotaku109@cluster0.6s6oik5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "moviebot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Movie_Db')
 
