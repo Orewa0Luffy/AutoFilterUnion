@@ -91,7 +91,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Union_Tutorial')  # H
 # Link Shortener Configuration
 # ============================and
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inshorturl.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Tutorial_Union')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
